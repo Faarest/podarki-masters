@@ -359,12 +359,13 @@ font-style: normal;
 font-weight: bold;
 font-size: 18px;
 line-height: 18px;
-/* identical to box height */
 bottom:0px;
 color: #0076B7;
-padding-left:-16px;
-padding-right:-16px;
-text-align: center;
+width: 100%;
+height: 100%;
+align-items: center;
+display: flex;
+justify-content: center;
 }
 	.mobile_all_goods {
 		display:none;
