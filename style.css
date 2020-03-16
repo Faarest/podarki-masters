@@ -1608,6 +1608,9 @@ li.order_row a {
 	justify-content: center;
 	line-height: 26px;
 }
+.sales_promo_btn_submit:hover {
+	background: #868686;
+}
 .sales_promo_btn_text {
 	display: flex;
 	flex-grow: 1;
