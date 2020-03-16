@@ -989,6 +989,15 @@ a.quick_buy {
 	border-radius: 10px;
 	background-color:  #27AE60;
 }
+.buy_as_present:hover {
+	background: #259855;
+}
+.write_otzyv:hover {
+	cursor: pointer;
+}
+.answer_to_otzyv:hover {
+	cursor: pointer;
+}
 a.buy_as_present {
 	font-family: Muller;
 	font-size: 16px;
@@ -1003,15 +1012,6 @@ div.goods_features label {
 	color: #C4C4C4;
 	padding-top: 10px;
 }
-.delivery_box {
-	display: flex;
-	justify-content: space-between;
-	width: 361px;
-	height: 136px;
-	flex-direction: column;
-	margin-top: 40px;
-
-}
 .h1_for_text {
 	font-style: normal;
 	font-weight: bold;
@@ -1019,18 +1019,6 @@ div.goods_features label {
 	line-height: 117.3%;
 	color: #FF4175;
 	margin: 0px;
-}
-div.delivery_box p {
-	margin: 0px;
-	font-size: 16px;
-	line-height: 117.3%;
-	color: #6D6D6D;
-}
-div.delivery_box a {
-	font-size: 16px;
-	line-height: 117.3%;
-	text-decoration-line: underline;
-	color: #FF4175;
 }
 .goods_description {
 	display: flex;
