@@ -369,6 +369,7 @@ text-align: center;
 	display:flex;
 	flex-wrap:wrap;
 	border-radius: 30px;
+	box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.17);
 }
 .bottom_div{
 	height: 71px;
