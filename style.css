@@ -197,18 +197,23 @@ a:hover {
 	cursor: pointer;
 }
 .navig_links{
+	width:100%;
+	padding-bottom: 20px;
+	display: flex;
+}
+.navig_links a {
 	font-family: Muller;
 	font-style: normal;
 	font-weight: normal;
 	font-size: 14px;
 	line-height: 14px;
 	color: #C4C4C4;
-	width:100%;
-	padding-bottom: 20px;
-	display: flex;
+}
+.navig_links a:hover {
+	color: #FF4175;
 }
 .current_navig{
-	color:#FF4175;
+	color:#FF4175 !important;
 }
 .section {
 	padding-top: 40px;
@@ -1930,6 +1935,26 @@ li.order_row a {
 	left: 0px;
 	transform: rotate(-90deg);
 	margin-top:-3px;
+}
+.link_to_back {
+	color: #FF4175;
+	padding-left: 15px;
+	position: relative;
+}
+.link_to_back::before {
+	display: block;
+	width: 0px;
+	height: 0;
+	border: inset 5px;
+	content: '';
+	border-bottom-width: 0;
+	border-top-style: solid;
+	border-color: #FF4175 transparent transparent;
+	position: absolute;
+	top: 50%;
+	left: 0px;
+	transform: rotate(90deg);
+	margin-top:-4px;
 }
 @media (max-width: 1200px) {
 	.container {
