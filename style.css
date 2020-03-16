@@ -816,6 +816,9 @@ justify-content: center;
 	width: 24px;
 	height: 20px;
 }
+.tovar_item__meta_likeit img:hover {
+	opacity: 0.5;
+}
 .good_item__meta_cost {
 	width: 57.837%;
 	font-size: 31px;
@@ -1958,6 +1961,9 @@ li.order_row a {
 	margin-top:-4px;
 }
 .main_banner__block_categ a:hover {
+	color: #FF4175;
+}
+#viewall_in_categ_desktop a:hover {
 	color: #FF4175;
 }
 @media (max-width: 1200px) {
