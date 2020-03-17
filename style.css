@@ -1740,7 +1740,7 @@ li.order_row a {
 	text-align: center;
 	margin-bottom: 10px;
 }
-.btn_cash_buy:hover, .btn_online_buy:hover, .btn_change:hover {
+.btn_cash_buy:hover, .btn_online_buy:hover, .btn_change:hover, .remove_from_cart:hover {
 	cursor: pointer;
 }
 .active_buy_btn {
