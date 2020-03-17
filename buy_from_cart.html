@@ -301,7 +301,10 @@
 			});
 			$('.remove_from_cart').on('click', function() {
 				$(this).closest('.one_cart_good').remove();
-			})
+			});
+			$('.input_with_count').keypress(function() {
+				$('.select_input_count_inner').css('display', 'none');
+			});
 		</script>
 	</div>
 </body>
