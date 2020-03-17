@@ -1610,6 +1610,7 @@ li.order_row a {
 }
 .sales_promo_btn_submit:hover {
 	background: #868686;
+	cursor: pointer;
 }
 .sales_promo_btn_text {
 	display: flex;
