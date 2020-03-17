@@ -1339,6 +1339,18 @@ div.order_column p {
 	color: #000000;
 	margin-left: 30px;
 }
+div.order_column > a {
+    font-family: Muller;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 14px;
+    color: #0076B7;
+    margin-left: 30px;
+}
+div.order_column > a:hover {
+	color: #FF4175;
+}
 .accordion-title {
 	display: flex;
 	flex-direction: row;
@@ -1396,11 +1408,14 @@ li.order_row a {
 	flex-direction: row;
 	background-color: #EEEEEE;
 }
-.order_column > img {
+.order_column_img {
 	width: 47px;
 	height: 47px;
 	margin-left: 30px;
 	border-radius: 5px;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
 }
 .order_row_inner {
 	height: 87px;
@@ -1510,15 +1525,16 @@ li.order_row a {
 .count5:hover {
 	background-color: #7777ff;
 }
-.count10:hover {
-	background-color: #7777ff;
-}
 .cart_good_nameid {
 	font-family: Muller;
 	font-size: 20px;
 	line-height: 20px;
 	margin-top:0px;
 	margin-bottom: 20px;
+	color: #0076B7;
+}
+.cart_good_nameid:hover {
+	color: #FF4175;
 }
 .cart_price_one_good p {
 	font-family: Muller;
