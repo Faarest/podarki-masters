@@ -3026,4 +3026,10 @@ li.order_row a {
 	.btn_change {
 		width: 100%;
 	}
+	.order_table_row:not(:last-child) {
+		border-bottom: 0px;
+	}
+	.order_table_row {
+		height: 20px;
+	}
 }
