@@ -90,8 +90,8 @@
 							</div>
 							<div class="adress_inputs">
 								<h1 class="box_header_font">Способ оплаты</h1>
-								<a href="" class="btn_cash_buy hover_pink">Наличные при получении</a>
-								<a href="" class="btn_online_buy hover_pink">Картой онлайн</a>
+								<button class="btn_cash_buy hover_pink">Наличные при получении</button>
+								<button class="btn_online_buy hover_pink active_buy_btn">Картой онлайн</button>
 							</div>
 							<div class="adress_inputs">
 								<a href="" class="btn_link hover_back_pink animate">Перейти к оплате</a>
@@ -210,6 +210,16 @@
 		<script src="vendor/foundation/js/vendor/foundation.js"></script>
 		<script src="vendor/foundation/js/app.js"></script>
 		<script type="text/javascript" src="vendor/slick/slick.min.js"></script>
+		<script type="text/javascript">
+			$('.btn_cash_buy').on('click', function() {
+				$(this).addClass('active_buy_btn'),
+				$('.btn_online_buy').removeClass('active_buy_btn')
+			});
+			$('.btn_online_buy').on('click', function() {
+				$(this).addClass('active_buy_btn'),
+				$('.btn_cash_buy').removeClass('active_buy_btn')
+			});
+		</script>
 	</div>
 </body>
 </html>
