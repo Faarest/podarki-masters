@@ -1740,6 +1740,9 @@ li.order_row a {
 	text-align: center;
 	margin-bottom: 10px;
 }
+.btn_cash_buy:hover, .btn_online_buy:hover, .btn_change:hover {
+	cursor: pointer;
+}
 .active_buy_btn {
 	border: 1px solid #FF4175;
 	color: #FF4175;
