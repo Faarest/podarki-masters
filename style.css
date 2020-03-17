@@ -1849,6 +1849,9 @@ li.order_row a {
     text-align: center;
     color: #ffffff;
 }
+.btn_change:hover {
+	cursor: pointer;
+}
 .password_field {
 	width: 105px;
 }
