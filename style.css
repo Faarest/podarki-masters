@@ -1996,6 +1996,12 @@ li.order_row a {
 #viewall_in_categ_desktop a:hover {
 	color: #FF4175;
 }
+.empty_page_padding {
+	padding-bottom: 1200px;
+}
+.accordion-menu .is-accordion-submenu-parent:not(.has-submenu-toggle) > a {
+	font-weight: bold;
+}
 @media (max-width: 1200px) {
 	.container {
 		max-width: 980px;
