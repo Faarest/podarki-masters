@@ -2963,6 +2963,11 @@ li.order_row a {
 		margin-left:0px;
 		margin-right:0px;
 	}
+	.empty_page_padding {
+		padding-left: 16px;
+		padding-right: 16px;
+		padding-bottom: 40px;
+	}
 }
 @media (max-width: 415px) {
 	.goods_features {
